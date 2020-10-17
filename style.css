@@ -1,1 +1,23 @@
-
+<style>
+    #nav-link{
+        background-color: red;
+        width: auto;
+        height: 50px;
+    }
+    #welcome-section{
+        color:red;
+        width: auto;
+        height: 400px;
+        background-color: black;
+    }
+    #projects{
+        background-color: dodgerblue;
+        width: auto;
+        height: 400px;
+    }
+    #down{
+        background-color: black;
+        width: auto;
+        height: 400px;     
+    }
+</style>
