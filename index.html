@@ -268,9 +268,12 @@
     <script>
       var countdown = document.getElementById('countdown');
         var countItDown = function(){
-        countdown.textContent = parseFloat(countdown.textContent) -1;
+          var currentTime = parseFloat(countdown.textContent);
+          if(currentTime > 0){
+        countdown.textContent = currentTime -1;
+          }else{window.clearInterval(timer);}
         }
-        window.setInterval(countItDown, 1000);
+        let timer = window.setInterval(countItDown, 1000);
     </script>
     
 </body>
